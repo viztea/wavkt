@@ -2,6 +2,8 @@ package wav
 
 import com.soywiz.korio.file.std.applicationVfs
 
+const val WAVE_FORMAT_PCM = 0x0001
+
 inline fun <reified T> Iterable<*>.firstOf(): T = filterIsInstance<T>().first()
 
 suspend fun main() {
