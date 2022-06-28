@@ -1,0 +1,10 @@
+bin/
+build/
+out/
+
+.idea/
+.vscode/
+.gradle/
+
+*.env
+*.wav
